@@ -1,0 +1,9 @@
+<h4>Companies</h4>
+
+<ul class="list-group">
+    <li *ngFor="let c of companies" class="list-group-item">
+        {{ c.companyName }}
+    </li>
+</ul>
+
+<button routerLink="/company/new" class="btn btn-primary">Create new Company</button>
